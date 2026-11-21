@@ -1,0 +1,174 @@
+{
+  "race_id": "202608050611",
+  "race_name": "マイルチャンピオンシップ",
+  "date": "2026-11-22",
+  "track": "京都",
+  "race_number": 11,
+  "course": "芝1600m",
+  "source": "https://race.netkeiba.com/race/shutuba.html?race_id=202608050611",
+  "fetched_at": "2026-11-21T20:06:14+09:00",
+  "runners": [
+    {
+      "bracket": 1,
+      "number": 1,
+      "name": "エルデナリ",
+      "burden": 57.0,
+      "jockey": "バルザロー",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 1,
+      "number": 2,
+      "name": "エンブロイダリー",
+      "burden": 56.0,
+      "jockey": "ルメール",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 2,
+      "number": 3,
+      "name": "ドラゴンブースト",
+      "burden": 58.0,
+      "jockey": "浜中",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 2,
+      "number": 4,
+      "name": "シックスペンス",
+      "burden": 58.0,
+      "jockey": "プーシャン",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 3,
+      "number": 5,
+      "name": "アドマイヤズーム",
+      "burden": 58.0,
+      "jockey": "武豊",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 3,
+      "number": 6,
+      "name": "ピコローズ",
+      "burden": 56.0,
+      "jockey": "三浦",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 4,
+      "number": 7,
+      "name": "ココナッツブラウン",
+      "burden": 56.0,
+      "jockey": "北村友",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 4,
+      "number": 8,
+      "name": "ロデオドライブ",
+      "burden": 57.0,
+      "jockey": "モレイラ",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 5,
+      "number": 9,
+      "name": "ジューンテイク",
+      "burden": 58.0,
+      "jockey": "川田",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 5,
+      "number": 10,
+      "name": "ウォーターリヒト",
+      "burden": 58.0,
+      "jockey": "幸",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 6,
+      "number": 11,
+      "name": "ガイアフォース",
+      "burden": 58.0,
+      "jockey": "西村淳",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 6,
+      "number": 12,
+      "name": "ワールズエンド",
+      "burden": 58.0,
+      "jockey": "Ｃデムーロ",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 7,
+      "number": 13,
+      "name": "レザベーション",
+      "burden": 57.0,
+      "jockey": "田口",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 7,
+      "number": 14,
+      "name": "スターアニス",
+      "burden": 55.0,
+      "jockey": "松山",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 7,
+      "number": 15,
+      "name": "エコロブルーム",
+      "burden": 58.0,
+      "jockey": "坂井",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 8,
+      "number": 16,
+      "name": "スズハローム",
+      "burden": 58.0,
+      "jockey": "藤懸",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 8,
+      "number": 17,
+      "name": "アンパドゥ",
+      "burden": 58.0,
+      "jockey": "岩田望",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 8,
+      "number": 18,
+      "name": "オフトレイル",
+      "burden": 58.0,
+      "jockey": "菅原明",
+      "win_odds": null,
+      "popularity": null
+    }
+  ]
+}
