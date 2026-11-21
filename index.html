@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>My 競馬分析室</title>
+<style>
+:root{font-family:system-ui,-apple-system,"Segoe UI",sans-serif;color:#172033;background:#f4f6fa}
+*{box-sizing:border-box}body{margin:0}.wrap{max-width:1100px;margin:auto;padding:22px}
+header{background:#132b46;color:white;padding:24px;border-radius:16px;margin-bottom:18px}
+h1{margin:0 0 6px;font-size:26px}header p{margin:0;color:#d5e1ee}
+nav{display:flex;gap:8px;flex-wrap:wrap;margin:16px 0}
+button,.btn{border:0;border-radius:9px;padding:10px 14px;background:#176b57;color:white;font-weight:650;cursor:pointer}
+button.secondary{background:#e4eaf1;color:#24344a}button.danger{background:#a83c42}
+.panel,.stat{background:white;border:1px solid #e2e8f0;border-radius:14px;padding:16px;margin-bottom:14px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.stat small{color:#64748b}.stat strong{display:block;font-size:26px;margin-top:5px}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+label{display:block;font-size:13px;color:#475569;margin:8px 0 4px}
+input,select,textarea{width:100%;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font:inherit;background:white}
+table{width:100%;border-collapse:collapse;font-size:14px}th,td{text-align:left;padding:10px;border-bottom:1px solid #e8edf3}th{color:#64748b}
+.muted{color:#64748b;font-size:13px}.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}.row>*{flex:1}
+.hidden{display:none}.tag{display:inline-block;background:#e8f3ef;color:#176b57;border-radius:20px;padding:3px 9px;font-size:12px}
+@media(max-width:700px){.stats{grid-template-columns:repeat(2,1fr)}.grid{grid-template-columns:1fr}.wrap{padding:12px}table{font-size:12px}th,td{padding:7px}}
+</style></head>
+<body><main class="wrap">
+<header><div class="tag">PERSONAL RACING DASHBOARD</div><h1>My 競馬分析室</h1><p>予想・買い目・レース結果を記録して、的中率と回収率を見える化</p></header>
+<section class="stats">
+<div class="stat"><small>登録レース</small><strong id="races">0</strong></div>
+<div class="stat"><small>購入金額</small><strong id="spent">¥0</strong></div>
+<div class="stat"><small>払戻金額</small><strong id="paid">¥0</strong></div>
+<div class="stat"><small>回収率</small><strong id="roi">--</strong></div>
+</section>
+<nav><button onclick="show('add')">レースを登録</button><button class="secondary" onclick="show('list')">レース一覧</button><button class="secondary" onclick="show('data')">データ管理</button></nav>
+<section id="add" class="panel">
+<h2>レース・馬券を登録</h2>
+<div class="grid">
+<div><label>開催日</label><input id="date" type="date"></div>
+<div><label>競馬場</label><select id="track"><option>東京</option><option>中山</option><option>京都</option><option>阪神</option><option>中京</option><option>新潟</option><option>福島</option><option>小倉</option><option>札幌</option><option>函館</option><option>海外・その他</option></select></div>
+<div><label>レース名</label><input id="raceName" placeholder="例：マイルチャンピオンシップ"></div>
+<div><label>レース番号</label><input id="raceNo" placeholder="例：11R"></div>
+<div><label>予想の本命（◎）</label><input id="horse" placeholder="馬名"></div>
+<div><label>券種</label><select id="kind"><option>単勝</option><option>複勝</option><option>馬連</option><option>ワイド</option><option>馬単</option><option>三連複</option><option>三連単</option><option>その他</option></select></div>
+<div><label>買い目</label><input id="ticket" placeholder="例：5-8 / 5-8-12"></div>
+<div><label>購入金額（円）</label><input id="cost" type="number" min="0" step="100" value="100"></div>
+<div><label>払戻金額（円・不的中は0）</label><input id="return" type="number" min="0" step="10" value="0"></div>
+<div><label>レース結果・メモ</label><input id="memo" placeholder="例：1着○○、展開読み違い"></div>
+</div><p class="muted">1つのレースに複数の買い目がある場合は、買い目ごとに登録してください。</p>
+<button onclick="addRace()">登録する</button>
+</section>
+<section id="list" class="panel hidden"><div class="row"><h2>登録レース</h2><button class="secondary" onclick="exportCSV()">CSVを書き出す</button></div><div style="overflow:auto"><table><thead><tr><th>日付・レース</th><th>本命</th><th>券種・買い目</th><th>購入</th><th>払戻</th><th></th></tr></thead><tbody id="tbody"></tbody></table></div><p id="empty" class="muted">まだデータがありません。「レースを登録」から追加してください。</p></section>
+<section id="data" class="panel hidden"><h2>データ管理</h2><p class="muted">データはこのブラウザ内に保存されます。別の端末・ブラウザとは自動同期されません。定期的にバックアップしてください。</p><div class="row"><button onclick="backup()">バックアップ(JSON)</button><label class="btn" style="text-align:center">バックアップを復元<input type="file" accept="application/json" onchange="restore(event)" style="display:none"></label><button class="danger" onclick="clearAll()">全データ削除</button></div><hr><h3>競馬サイトからのデータ取得について</h3><p>この初期版は記録・分析機能です。netkeiba等からの自動取得は、利用規約・提供API・アクセス制限を確認してから接続します。ログイン情報やパスワードをこの画面に入力しないでください。</p></section>
+<footer class="muted">My 競馬分析室 · 初期版 1.0</footer>
+</main>
+<script>
+const KEY='myKeibaAnalysis_v1';let items=JSON.parse(localStorage.getItem(KEY)||'[]');
+const yen=n=>'¥'+Number(n||0).toLocaleString('ja-JP');
+function save(){localStorage.setItem(KEY,JSON.stringify(items));render()}
+function show(id){['add','list','data'].forEach(x=>document.getElementById(x).classList.toggle('hidden',x!==id));}
+function addRace(){
+ const v=id=>document.getElementById(id).value;
+ if(!v('date')||!v('raceName')||!v('cost')){alert('開催日、レース名、購入金額を入力してください');return}
+ items.unshift({id:Date.now(),date:v('date'),track:v('track'),raceName:v('raceName'),raceNo:v('raceNo'),horse:v('horse'),kind:v('kind'),ticket:v('ticket'),cost:+v('cost'),paid:+v('return'),memo:v('memo')});
+ save();['raceName','raceNo','horse','ticket','memo'].forEach(x=>document.getElementById(x).value='');document.getElementById('return').value=0;show('list');
+}
+function del(id){if(confirm('この記録を削除しますか？')){items=items.filter(x=>x.id!==id);save()}}
+function render(){
+ const cost=items.reduce((s,x)=>s+x.cost,0),paid=items.reduce((s,x)=>s+x.paid,0);
+ document.getElementById('races').textContent=new Set(items.map(x=>x.date+x.raceName+x.track)).size;
+ document.getElementById('spent').textContent=yen(cost);document.getElementById('paid').textContent=yen(paid);
+ document.getElementById('roi').textContent=cost?(paid/cost*100).toFixed(1)+'%':'--';
+ const body=document.getElementById('tbody');body.innerHTML='';
+ items.forEach(x=>{const tr=document.createElement('tr');[`${x.date}<br>${x.track} ${x.raceNo||''} ${x.raceName}`,x.horse||'—',`${x.kind}<br>${x.ticket||'—'}`,yen(x.cost),yen(x.paid)].forEach((v,i)=>{const td=document.createElement('td');td.innerHTML=i===0?v.replaceAll('<','&lt;').replaceAll('>','&gt;').replace('&lt;br&gt;','<br>'):v;tr.appendChild(td)});const td=document.createElement('td'),b=document.createElement('button');b.className='danger';b.textContent='削除';b.onclick=()=>del(x.id);td.appendChild(b);tr.appendChild(td);body.appendChild(tr)});
+ document.getElementById('empty').style.display=items.length?'none':'block';
+}
+function download(name,content,type){const a=document.createElement('a'),u=URL.createObjectURL(new Blob([content],{type}));a.href=u;a.download=name;a.click();URL.revokeObjectURL(u)}
+function backup(){download('keiba-backup.json',JSON.stringify(items,null,2),'application/json')}
+function restore(e){const f=e.target.files[0];if(!f)return;const r=new FileReader();r.onload=()=>{try{const d=JSON.parse(r.result);if(!Array.isArray(d))throw 0;if(confirm('現在の記録を置き換えて復元しますか？')){items=d;save()}}catch{alert('JSONファイルを読み込めませんでした')}};r.readAsText(f)}
+function clearAll(){if(confirm('すべての記録を削除します。よろしいですか？')){items=[];save()}}
+function exportCSV(){const cols=['date','track','raceName','raceNo','horse','kind','ticket','cost','paid','memo'];const q=v=>'"'+String(v??'').replaceAll('"','""')+'"';download('keiba-records.csv','\ufeff'+[cols.join(','),...items.map(x=>cols.map(c=>q(x[c])).join(','))].join('\n'),'text/csv;charset=utf-8')}
+render();
+</script></body></html>
