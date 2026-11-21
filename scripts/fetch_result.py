@@ -17,6 +17,12 @@ ROOT = Path(__file__).resolve().parent.parent
 OUT_DIR = ROOT / "data" / "results"
 JST = timezone(timedelta(hours=9))
 UA = {"User-Agent": "Mozilla/5.0 (personal keiba analysis; low frequency)"}
+# netkeibaの略称表記を正式名称に寄せる（登録データとの照合のため）
+RACE_NAME_ALIASES = {"マイルＣＳ": "マイルチャンピオンシップ", "マイルCS": "マイルチャンピオンシップ"}
+
+
+def normalize_race_name(name: str) -> str:
+    return RACE_NAME_ALIASES.get(name, name)
 
 
 def parse_result(race_id: str) -> dict:
@@ -30,7 +36,7 @@ def parse_result(race_id: str) -> dict:
     # 例: 福島記念 結果・払戻 | 2026年11月21日 福島11R レース情報(JRA) - netkeiba
     title = soup.title.get_text() if soup.title else ""
     m = re.search(r"(\d{4})年(\d{1,2})月(\d{1,2})日\s*(\S+?)(\d+)R", title)
-    race_name = re.sub(r"\(.*?\)$", "", title.split(" ")[0].strip()) if title else ""
+    race_name = normalize_race_name(re.sub(r"\(.*?\)$", "", title.split(" ")[0].strip())) if title else ""
     date = track = race_number = None
     if m:
         date = f"{m.group(1)}-{int(m.group(2)):02d}-{int(m.group(3)):02d}"
