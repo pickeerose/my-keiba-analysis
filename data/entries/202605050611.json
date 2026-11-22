@@ -1,0 +1,120 @@
+{
+  "race_id": "202605050611",
+  "race_name": "東スポ２歳Ｓ",
+  "date": "2026-11-23",
+  "track": "東京",
+  "race_number": 11,
+  "course": "芝1800m",
+  "source": "https://race.netkeiba.com/race/shutuba.html?race_id=202605050611",
+  "fetched_at": "2026-11-23T01:01:29+09:00",
+  "runners": [
+    {
+      "bracket": 1,
+      "number": 1,
+      "name": "ダノンダックス",
+      "burden": 56.0,
+      "jockey": "ルメール",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 2,
+      "number": 2,
+      "name": "シルヴァノーブル",
+      "burden": 56.0,
+      "jockey": "横山典",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 3,
+      "number": 3,
+      "name": "テンカタイヘイ",
+      "burden": 56.0,
+      "jockey": "横山和",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 4,
+      "number": 4,
+      "name": "キングリア",
+      "burden": 56.0,
+      "jockey": "川田",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 5,
+      "number": 5,
+      "name": "ジョドレルバンク",
+      "burden": 56.0,
+      "jockey": "モレイラ",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 5,
+      "number": 6,
+      "name": "ティフォシ",
+      "burden": 56.0,
+      "jockey": "Ｍデムーロ",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 6,
+      "number": 7,
+      "name": "スローブギ",
+      "burden": 56.0,
+      "jockey": "松山",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 6,
+      "number": 8,
+      "name": "コラリオン",
+      "burden": 56.0,
+      "jockey": "坂井",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 7,
+      "number": 9,
+      "name": "ニースケンス",
+      "burden": 56.0,
+      "jockey": "原",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 7,
+      "number": 10,
+      "name": "ショウナンガレオン",
+      "burden": 56.0,
+      "jockey": "鮫島駿",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 8,
+      "number": 11,
+      "name": "ビンドゥング",
+      "burden": 56.0,
+      "jockey": "戸崎圭",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 8,
+      "number": 12,
+      "name": "オンユアマークス",
+      "burden": 56.0,
+      "jockey": "武豊",
+      "win_odds": null,
+      "popularity": null
+    }
+  ]
+}
