@@ -5,5 +5,12 @@
     "date": "2026-11-22",
     "track": "京都",
     "race_number": 11
+  },
+  {
+    "race_id": "202605050611",
+    "race_name": "東スポ２歳Ｓ",
+    "date": "2026-11-23",
+    "track": "東京",
+    "race_number": 11
   }
 ]
