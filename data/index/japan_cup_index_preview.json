@@ -1,0 +1,314 @@
+{
+  "race": {
+    "name": "ジャパンカップ",
+    "date": "2026-11-29",
+    "track": "東京",
+    "course": "芝2400m",
+    "grade": "G1"
+  },
+  "type": "前走能力指数の持ち越し一覧（先行版・登録段階）",
+  "index_version": "0.1",
+  "generated_at": "2026-11-23",
+  "method": "指数=100+タイム点（レース内平均との差、0.1秒=1点）+上がり点（重み半分）+斤量点（平均より1kg重いごとに+2点）。各馬の直近の国内レース（前走）の指数を持ち越したもの",
+  "caveats": [
+    "指数はレース内相対評価のため、異なるレース・距離・馬場の指数をそのまま横並びで比較するには限界がある（v0.1の既知の制約）",
+    "登録段階の一覧であり、出走馬・枠順は2026-11-26発表の出馬表で確定する",
+    "想定記事にあった『ファーブリッジ』は登録一覧に実在せず、実在の登録馬はファイアンクランツ（前走アルゼンチン共和国杯8着）だったため、そちらを採用した"
+  ],
+  "horses": [
+    {
+      "name": "メイショウタバル",
+      "origin": "日本",
+      "prev_race": {
+        "race_id": "202609030411",
+        "race_name": "宝塚記念",
+        "date": "2026-06-14",
+        "track": "阪神",
+        "course": "芝2200m",
+        "going": "重",
+        "rank": 1,
+        "popularity": 2,
+        "win_odds": 3.9,
+        "index": 122.9,
+        "index_rank": 1,
+        "field_size": 17,
+        "value_gap": 1
+      },
+      "index": 122.9,
+      "note": "実際の前走は凱旋門賞（2026-10-04、14着）。国内指数は国内前走の宝塚記念で算出。宝塚記念は重馬場施行のため、良馬場想定のジャパンカップでは指数を割り引いて見る必要がある"
+    },
+    {
+      "name": "ダノンデサイル",
+      "origin": "日本",
+      "prev_race": {
+        "race_id": "202605041111",
+        "race_name": "天皇賞（秋）",
+        "date": "2026-11-01",
+        "track": "東京",
+        "course": "芝2000m",
+        "going": "良",
+        "rank": 1,
+        "popularity": 4,
+        "win_odds": 10.8,
+        "index": 122.7,
+        "index_rank": 1,
+        "field_size": 17,
+        "value_gap": 3
+      },
+      "index": 122.7,
+      "note": null
+    },
+    {
+      "name": "タガノデュード",
+      "origin": "日本",
+      "prev_race": {
+        "race_id": "202605041111",
+        "race_name": "天皇賞（秋）",
+        "date": "2026-11-01",
+        "track": "東京",
+        "course": "芝2000m",
+        "going": "良",
+        "rank": 4,
+        "popularity": 14,
+        "win_odds": 159.7,
+        "index": 113.7,
+        "index_rank": 3,
+        "field_size": 17,
+        "value_gap": 11
+      },
+      "index": 113.7,
+      "note": null
+    },
+    {
+      "name": "ヘデントール",
+      "origin": "日本",
+      "prev_race": {
+        "race_id": "202608040211",
+        "race_name": "京都大賞典",
+        "date": "2026-10-04",
+        "track": "京都",
+        "course": "芝2400m",
+        "going": "稍",
+        "rank": 5,
+        "popularity": 5,
+        "win_odds": 8.8,
+        "index": 111.4,
+        "index_rank": 1,
+        "field_size": 18,
+        "value_gap": 4
+      },
+      "index": 111.4,
+      "note": null
+    },
+    {
+      "name": "クロワデュノール",
+      "origin": "日本",
+      "prev_race": {
+        "race_id": "202605041111",
+        "race_name": "天皇賞（秋）",
+        "date": "2026-11-01",
+        "track": "東京",
+        "course": "芝2000m",
+        "going": "良",
+        "rank": 5,
+        "popularity": 1,
+        "win_odds": 2.3,
+        "index": 109.2,
+        "index_rank": 5,
+        "field_size": 17,
+        "value_gap": -4
+      },
+      "index": 109.2,
+      "note": null
+    },
+    {
+      "name": "シェイクユアハート",
+      "origin": "日本",
+      "prev_race": {
+        "race_id": "202605041111",
+        "race_name": "天皇賞（秋）",
+        "date": "2026-11-01",
+        "track": "東京",
+        "course": "芝2000m",
+        "going": "良",
+        "rank": 6,
+        "popularity": 5,
+        "win_odds": 11.7,
+        "index": 109.2,
+        "index_rank": 6,
+        "field_size": 17,
+        "value_gap": -1
+      },
+      "index": 109.2,
+      "note": null
+    },
+    {
+      "name": "ファイアンクランツ",
+      "origin": "日本",
+      "prev_race": {
+        "race_id": "202605050211",
+        "race_name": "アルゼンチン共和国杯",
+        "date": "2026-11-08",
+        "track": "東京",
+        "course": "芝2500m",
+        "going": "良",
+        "rank": 8,
+        "popularity": 3,
+        "win_odds": 5.8,
+        "index": 105.3,
+        "index_rank": 7,
+        "field_size": 18,
+        "value_gap": -4
+      },
+      "index": 105.3,
+      "note": null
+    },
+    {
+      "name": "マスカレードボール",
+      "origin": "日本",
+      "prev_race": {
+        "race_id": "202605041111",
+        "race_name": "天皇賞（秋）",
+        "date": "2026-11-01",
+        "track": "東京",
+        "course": "芝2000m",
+        "going": "良",
+        "rank": 11,
+        "popularity": 2,
+        "win_odds": 2.5,
+        "index": 105.2,
+        "index_rank": 9,
+        "field_size": 17,
+        "value_gap": -7
+      },
+      "index": 105.2,
+      "note": null
+    },
+    {
+      "name": "アーバンシック",
+      "origin": "日本",
+      "prev_race": {
+        "race_id": "202604030408",
+        "race_name": "新潟記念",
+        "date": "2026-08-30",
+        "track": "新潟",
+        "course": "芝2000m",
+        "going": "稍",
+        "rank": 5,
+        "popularity": 7,
+        "win_odds": 18.4,
+        "index": 105.0,
+        "index_rank": 1,
+        "field_size": 11,
+        "value_gap": 6
+      },
+      "index": 105.0,
+      "note": "新潟記念は新潟8R施行（2000m）。トップハンデ59.0kgを背負っての指数"
+    },
+    {
+      "name": "コスモキュランダ",
+      "origin": "日本",
+      "prev_race": {
+        "race_id": "202605041111",
+        "race_name": "天皇賞（秋）",
+        "date": "2026-11-01",
+        "track": "東京",
+        "course": "芝2000m",
+        "going": "良",
+        "rank": 9,
+        "popularity": 12,
+        "win_odds": 146.9,
+        "index": 103.7,
+        "index_rank": 11,
+        "field_size": 17,
+        "value_gap": 1
+      },
+      "index": 103.7,
+      "note": null
+    },
+    {
+      "name": "ヴェルテンベルク",
+      "origin": "日本",
+      "prev_race": {
+        "race_id": "202608040211",
+        "race_name": "京都大賞典",
+        "date": "2026-10-04",
+        "track": "京都",
+        "course": "芝2400m",
+        "going": "稍",
+        "rank": 7,
+        "popularity": 7,
+        "win_odds": 17.0,
+        "index": 101.9,
+        "index_rank": 7,
+        "field_size": 18,
+        "value_gap": 0
+      },
+      "index": 101.9,
+      "note": null
+    },
+    {
+      "name": "エキサイトバイオ",
+      "origin": "日本",
+      "prev_race": {
+        "race_id": "202506050811",
+        "race_name": "有馬記念",
+        "date": "2025-12-28",
+        "track": "中山",
+        "course": "芝2500m",
+        "going": "良",
+        "rank": 8,
+        "popularity": 7,
+        "win_odds": 29.7,
+        "index": 98.2,
+        "index_rank": 9,
+        "field_size": 16,
+        "value_gap": -2
+      },
+      "index": 98.2,
+      "note": "前走は2025年12月28日の有馬記念で、約11か月の休み明けとなる。指数は約1年前の数値"
+    },
+    {
+      "name": "カランダガン",
+      "origin": "フランス",
+      "prev_race": null,
+      "index": null,
+      "note": "外国馬のため国内指数なし。前走: 英チャンピオンステークス2着（2026-10-17）"
+    },
+    {
+      "name": "オンブズマン",
+      "origin": "イギリス",
+      "prev_race": null,
+      "index": null,
+      "note": "外国馬のため国内指数なし。前走: 英チャンピオンステークス1着（2026-10-17）"
+    },
+    {
+      "name": "ゴリアット",
+      "origin": "フランス",
+      "prev_race": null,
+      "index": null,
+      "note": "外国馬のため国内指数なし。前走: オイロパ賞1着（2026-09-27）"
+    },
+    {
+      "name": "ミニーホーク",
+      "origin": "アイルランド",
+      "prev_race": null,
+      "index": null,
+      "note": "外国馬のため国内指数なし。前走: 英チャンピオンズフィリーズ&メアズS1着"
+    },
+    {
+      "name": "テアオ",
+      "origin": "アメリカ",
+      "prev_race": null,
+      "index": null,
+      "note": "外国馬のため国内指数なし。前走: ラテンアメリカ大賞1着（2026-04-26、約7か月ぶり）"
+    },
+    {
+      "name": "エシカルダイヤモンド",
+      "origin": "アイルランド",
+      "prev_race": null,
+      "index": null,
+      "note": "外国馬のため国内指数なし。前走: ブリーダーズカップターフ9着"
+    }
+  ]
+}

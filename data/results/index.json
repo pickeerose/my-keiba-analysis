@@ -19,5 +19,47 @@
     "date": "2026-11-21",
     "track": "福島",
     "race_number": 11
+  },
+  {
+    "race_id": "202605050211",
+    "race_name": "アルゼンチン共和国杯",
+    "date": "2026-11-08",
+    "track": "東京",
+    "race_number": 11
+  },
+  {
+    "race_id": "202605041111",
+    "race_name": "天皇賞（秋）",
+    "date": "2026-11-01",
+    "track": "東京",
+    "race_number": 11
+  },
+  {
+    "race_id": "202608040211",
+    "race_name": "京都大賞典",
+    "date": "2026-10-04",
+    "track": "京都",
+    "race_number": 11
+  },
+  {
+    "race_id": "202604030408",
+    "race_name": "新潟記念",
+    "date": "2026-08-30",
+    "track": "新潟",
+    "race_number": 8
+  },
+  {
+    "race_id": "202609030411",
+    "race_name": "宝塚記念",
+    "date": "2026-06-14",
+    "track": "阪神",
+    "race_number": 11
+  },
+  {
+    "race_id": "202506050811",
+    "race_name": "有馬記念",
+    "date": "2025-12-28",
+    "track": "中山",
+    "race_number": 11
   }
 ]
