@@ -18,7 +18,7 @@ OUT_DIR = ROOT / "data" / "results"
 JST = timezone(timedelta(hours=9))
 UA = {"User-Agent": "Mozilla/5.0 (personal keiba analysis; low frequency)"}
 # netkeibaの略称表記を正式名称に寄せる（登録データとの照合のため）
-RACE_NAME_ALIASES = {"マイルＣＳ": "マイルチャンピオンシップ", "マイルCS": "マイルチャンピオンシップ"}
+RACE_NAME_ALIASES = {"マイルＣＳ": "マイルチャンピオンシップ", "マイルCS": "マイルチャンピオンシップ", "東スポ杯２歳Ｓ": "東スポ２歳Ｓ"}
 
 
 def normalize_race_name(name: str) -> str:
