@@ -8,7 +8,82 @@
   "weather": null,
   "going": "良",
   "source": "https://race.netkeiba.com/race/result.html?race_id=202506050811",
-  "fetched_at": "2026-11-23T22:11:39+09:00",
+  "fetched_at": "2026-11-24T11:24:38+09:00",
+  "corner_passing": {
+    "1コーナー": [
+      11,
+      10,
+      6,
+      13,
+      2,
+      16,
+      15,
+      12,
+      9,
+      1,
+      4,
+      14,
+      8,
+      5,
+      7,
+      3
+    ],
+    "2コーナー": [
+      11,
+      6,
+      10,
+      13,
+      2,
+      16,
+      15,
+      12,
+      1,
+      9,
+      14,
+      8,
+      4,
+      7,
+      5,
+      3
+    ],
+    "3コーナー": [
+      6,
+      11,
+      10,
+      13,
+      16,
+      12,
+      15,
+      2,
+      1,
+      9,
+      14,
+      8,
+      4,
+      3,
+      7,
+      5
+    ],
+    "4コーナー": [
+      6,
+      10,
+      16,
+      13,
+      11,
+      12,
+      2,
+      15,
+      1,
+      9,
+      4,
+      14,
+      8,
+      5,
+      3,
+      7
+    ]
+  },
+  "final_corner": "4コーナー",
   "runners": [
     {
       "rank": 1,
@@ -21,7 +96,8 @@
       "time": "2:31.5",
       "popularity": 3,
       "win_odds": 3.8,
-      "last3f": 34.6
+      "last3f": 34.6,
+      "final_corner_pos": 11
     },
     {
       "rank": 2,
@@ -34,7 +110,8 @@
       "time": "2:31.6",
       "popularity": 12,
       "win_odds": 111.5,
-      "last3f": 35.5
+      "last3f": 35.5,
+      "final_corner_pos": 2
     },
     {
       "rank": 3,
@@ -47,7 +124,8 @@
       "time": "2:31.6",
       "popularity": 2,
       "win_odds": 3.8,
-      "last3f": 35.0
+      "last3f": 35.0,
+      "final_corner_pos": 10
     },
     {
       "rank": 4,
@@ -60,7 +138,8 @@
       "time": "2:31.7",
       "popularity": 1,
       "win_odds": 3.3,
-      "last3f": 34.6
+      "last3f": 34.6,
+      "final_corner_pos": 14
     },
     {
       "rank": 5,
@@ -73,7 +152,8 @@
       "time": "2:31.8",
       "popularity": 13,
       "win_odds": 122.5,
-      "last3f": 34.8
+      "last3f": 34.8,
+      "final_corner_pos": 16
     },
     {
       "rank": 6,
@@ -86,7 +166,8 @@
       "time": "2:32.0",
       "popularity": 8,
       "win_odds": 35.4,
-      "last3f": 35.7
+      "last3f": 35.7,
+      "final_corner_pos": 3
     },
     {
       "rank": 7,
@@ -99,7 +180,8 @@
       "time": "2:32.1",
       "popularity": 5,
       "win_odds": 12.7,
-      "last3f": 35.2
+      "last3f": 35.2,
+      "final_corner_pos": 15
     },
     {
       "rank": 8,
@@ -112,7 +194,8 @@
       "time": "2:32.1",
       "popularity": 7,
       "win_odds": 29.7,
-      "last3f": 35.5
+      "last3f": 35.5,
+      "final_corner_pos": 9
     },
     {
       "rank": 9,
@@ -125,7 +208,8 @@
       "time": "2:32.3",
       "popularity": 11,
       "win_odds": 111.5,
-      "last3f": 35.9
+      "last3f": 35.9,
+      "final_corner_pos": 6
     },
     {
       "rank": 10,
@@ -138,7 +222,8 @@
       "time": "2:32.4",
       "popularity": 14,
       "win_odds": 154.1,
-      "last3f": 35.5
+      "last3f": 35.5,
+      "final_corner_pos": 13
     },
     {
       "rank": 11,
@@ -151,7 +236,8 @@
       "time": "2:32.4",
       "popularity": 9,
       "win_odds": 50.3,
-      "last3f": 36.1
+      "last3f": 36.1,
+      "final_corner_pos": 4
     },
     {
       "rank": 12,
@@ -164,7 +250,8 @@
       "time": "2:32.6",
       "popularity": 16,
       "win_odds": 180.3,
-      "last3f": 36.1
+      "last3f": 36.1,
+      "final_corner_pos": 8
     },
     {
       "rank": 13,
@@ -177,7 +264,8 @@
       "time": "2:32.6",
       "popularity": 4,
       "win_odds": 5.8,
-      "last3f": 36.7
+      "last3f": 36.7,
+      "final_corner_pos": 1
     },
     {
       "rank": 14,
@@ -190,7 +278,8 @@
       "time": "2:32.6",
       "popularity": 6,
       "win_odds": 26.6,
-      "last3f": 36.0
+      "last3f": 36.0,
+      "final_corner_pos": 7
     },
     {
       "rank": 15,
@@ -203,7 +292,8 @@
       "time": "2:32.8",
       "popularity": 15,
       "win_odds": 174.2,
-      "last3f": 35.9
+      "last3f": 35.9,
+      "final_corner_pos": 12
     },
     {
       "rank": 16,
@@ -216,7 +306,8 @@
       "time": "2:32.8",
       "popularity": 10,
       "win_odds": 53.5,
-      "last3f": 36.8
+      "last3f": 36.8,
+      "final_corner_pos": 5
     }
   ]
 }
