@@ -5,7 +5,7 @@
 
 出馬表JSONは data/entries/<race_id>.json 形式（runners: number/name/jockey...）
 でも、{horses: [{name, jockey}, ...]} 形式（想定版）でもよい。
-data/index/ability_index.json の蓄積から各馬の指数履歴を引いて、
+data/index/ability_index_v02.json（能力指数v0.2・位置取り補正つき）の蓄積から各馬の指数履歴を引いて、
 前走指数・前走レース/着順・近2走平均を付けた表を data/entry_index/<slug>.json に出す。
 指数データがない馬は index: null（指数なし）として明示する。
 """
@@ -17,7 +17,7 @@ ROOT = Path(__file__).resolve().parent.parent
 
 
 def load_history():
-    p = ROOT / "data" / "index" / "ability_index.json"
+    p = ROOT / "data" / "index" / "ability_index_v02.json"
     hist = {}
     if not p.exists():
         return hist
@@ -75,7 +75,7 @@ def main():
     out = {
         "race_name": entry.get("race_name") or (entry.get("race") or {}).get("race_name"),
         "source": str(src),
-        "index_version": "0.1",
+        "index_version": "0.2",
         "horses": rows,
     }
     p = out_dir / f"{slug}.json"
