@@ -25,6 +25,29 @@ def normalize_race_name(name: str) -> str:
     return RACE_NAME_ALIASES.get(name, name)
 
 
+def parse_corner_passing(soup):
+    """コーナー通過順位テーブル（table.RaceCommon_Table.Corner_Num）から
+    各コーナーの馬番順を取り出す。空のコーナーは含めない。
+    返り値: {"3コーナー": [3, 4, 2, ...], "4コーナー": [...]}（通過順）
+    記号（, - = () *）は間隔・並走の表記で、馬番の並び順だけを拾う。
+    """
+    table = soup.select_one("table.RaceCommon_Table.Corner_Num")
+    if table is None:
+        return {}
+    out = {}
+    for tr in table.select("tr"):
+        cells = [c.get_text("", strip=True) for c in tr.select("th,td")]
+        if len(cells) < 2 or not cells[1]:
+            continue
+        label = cells[0]
+        if not re.fullmatch(r"\d+コーナー", label):
+            continue
+        nums = [int(x) for x in re.findall(r"\d+", cells[1])]
+        if nums:
+            out[label] = nums
+    return out
+
+
 def parse_result(race_id: str) -> dict:
     url = f"https://race.netkeiba.com/race/result.html?race_id={race_id}"
     res = requests.get(url, headers=UA, timeout=30)
@@ -89,6 +112,19 @@ def parse_result(race_id: str) -> dict:
     if not runners:
         raise RuntimeError("出走馬データを読み取れませんでした")
 
+    # コーナー通過順位（最終コーナーの位置取りを各馬に付与）
+    corner_passing = parse_corner_passing(soup)
+    final_pos = {}
+    if corner_passing:
+        last_label = sorted(corner_passing.keys())[-1]
+        for i, num in enumerate(corner_passing[last_label], 1):
+            final_pos[num] = i
+        final_label = last_label
+    else:
+        final_label = None
+    for r in runners:
+        r["final_corner_pos"] = final_pos.get(r["number"]) if r["number"] is not None else None
+
     return {
         "race_id": race_id,
         "race_name": race_name,
@@ -100,6 +136,8 @@ def parse_result(race_id: str) -> dict:
         "going": going,
         "source": url,
         "fetched_at": datetime.now(JST).isoformat(timespec="seconds"),
+        "corner_passing": corner_passing,
+        "final_corner": final_label,
         "runners": runners,
     }
 
