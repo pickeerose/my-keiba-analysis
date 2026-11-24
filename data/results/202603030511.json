@@ -8,7 +8,82 @@
   "weather": null,
   "going": "稍",
   "source": "https://race.netkeiba.com/race/result.html?race_id=202603030511",
-  "fetched_at": "2026-11-21T19:02:19+09:00",
+  "fetched_at": "2026-11-24T11:24:39+09:00",
+  "corner_passing": {
+    "1コーナー": [
+      3,
+      7,
+      14,
+      11,
+      2,
+      4,
+      13,
+      1,
+      6,
+      16,
+      15,
+      9,
+      8,
+      10,
+      12,
+      5
+    ],
+    "2コーナー": [
+      3,
+      7,
+      2,
+      14,
+      11,
+      1,
+      13,
+      4,
+      15,
+      6,
+      16,
+      9,
+      12,
+      8,
+      10,
+      5
+    ],
+    "3コーナー": [
+      7,
+      3,
+      14,
+      2,
+      11,
+      13,
+      6,
+      15,
+      1,
+      4,
+      12,
+      8,
+      16,
+      9,
+      10,
+      5
+    ],
+    "4コーナー": [
+      3,
+      13,
+      15,
+      14,
+      7,
+      2,
+      11,
+      4,
+      16,
+      1,
+      6,
+      8,
+      10,
+      12,
+      9,
+      5
+    ]
+  },
+  "final_corner": "4コーナー",
   "runners": [
     {
       "rank": 1,
@@ -21,7 +96,8 @@
       "time": "2:03.2",
       "popularity": 1,
       "win_odds": 3.3,
-      "last3f": 36.1
+      "last3f": 36.1,
+      "final_corner_pos": 2
     },
     {
       "rank": 2,
@@ -34,7 +110,8 @@
       "time": "2:03.5",
       "popularity": 11,
       "win_odds": 28.5,
-      "last3f": 36.6
+      "last3f": 36.6,
+      "final_corner_pos": 1
     },
     {
       "rank": 3,
@@ -47,7 +124,8 @@
       "time": "2:03.6",
       "popularity": 4,
       "win_odds": 8.1,
-      "last3f": 36.3
+      "last3f": 36.3,
+      "final_corner_pos": 10
     },
     {
       "rank": 4,
@@ -60,7 +138,8 @@
       "time": "2:03.7",
       "popularity": 8,
       "win_odds": 19.9,
-      "last3f": 35.9
+      "last3f": 35.9,
+      "final_corner_pos": 13
     },
     {
       "rank": 5,
@@ -73,7 +152,8 @@
       "time": "2:03.7",
       "popularity": 15,
       "win_odds": 94.1,
-      "last3f": 36.4
+      "last3f": 36.4,
+      "final_corner_pos": 8
     },
     {
       "rank": 6,
@@ -86,7 +166,8 @@
       "time": "2:03.7",
       "popularity": 3,
       "win_odds": 6.7,
-      "last3f": 36.5
+      "last3f": 36.5,
+      "final_corner_pos": 3
     },
     {
       "rank": 7,
@@ -99,7 +180,8 @@
       "time": "2:03.8",
       "popularity": 2,
       "win_odds": 5.4,
-      "last3f": 36.7
+      "last3f": 36.7,
+      "final_corner_pos": 7
     },
     {
       "rank": 8,
@@ -112,7 +194,8 @@
       "time": "2:04.2",
       "popularity": 12,
       "win_odds": 49.4,
-      "last3f": 36.7
+      "last3f": 36.7,
+      "final_corner_pos": 14
     },
     {
       "rank": 9,
@@ -125,7 +208,8 @@
       "time": "2:04.3",
       "popularity": 5,
       "win_odds": 10.1,
-      "last3f": 36.8
+      "last3f": 36.8,
+      "final_corner_pos": 12
     },
     {
       "rank": 10,
@@ -138,7 +222,8 @@
       "time": "2:04.3",
       "popularity": 13,
       "win_odds": 56.7,
-      "last3f": 37.1
+      "last3f": 37.1,
+      "final_corner_pos": 11
     },
     {
       "rank": 11,
@@ -151,7 +236,8 @@
       "time": "2:04.4",
       "popularity": 9,
       "win_odds": 23.2,
-      "last3f": 37.4
+      "last3f": 37.4,
+      "final_corner_pos": 6
     },
     {
       "rank": 12,
@@ -164,7 +250,8 @@
       "time": "2:04.6",
       "popularity": 6,
       "win_odds": 11.8,
-      "last3f": 37.2
+      "last3f": 37.2,
+      "final_corner_pos": 9
     },
     {
       "rank": 13,
@@ -177,7 +264,8 @@
       "time": "2:05.0",
       "popularity": 14,
       "win_odds": 58.0,
-      "last3f": 37.5
+      "last3f": 37.5,
+      "final_corner_pos": 15
     },
     {
       "rank": 14,
@@ -190,7 +278,8 @@
       "time": "2:06.3",
       "popularity": 10,
       "win_odds": 24.6,
-      "last3f": 39.5
+      "last3f": 39.5,
+      "final_corner_pos": 5
     },
     {
       "rank": 15,
@@ -203,7 +292,8 @@
       "time": "2:08.1",
       "popularity": 7,
       "win_odds": 13.1,
-      "last3f": 41.2
+      "last3f": 41.2,
+      "final_corner_pos": 4
     },
     {
       "rank": null,
@@ -216,7 +306,8 @@
       "time": null,
       "popularity": null,
       "win_odds": null,
-      "last3f": null
+      "last3f": null,
+      "final_corner_pos": 16
     }
   ]
 }
