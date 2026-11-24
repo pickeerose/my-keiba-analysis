@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "index_version": "0.2",
+  "description": "指数上位5頭（前走指数／近2走平均）のレース後成績記録。勝率・複勝率は記録済み全レースの累計。",
+  "races": [],
+  "cumulative": {
+    "races_recorded": 0,
+    "last_index": {
+      "starts": 0,
+      "wins": 0,
+      "places": 0,
+      "win_rate": 0.0,
+      "place_rate": 0.0
+    },
+    "avg2": {
+      "starts": 0,
+      "wins": 0,
+      "places": 0,
+      "win_rate": 0.0,
+      "place_rate": 0.0
+    }
+  }
+}
