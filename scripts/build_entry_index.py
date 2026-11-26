@@ -51,6 +51,17 @@ def main():
     entry = json.loads(src.read_text(encoding="utf-8"))
     raw = entry.get("runners") or entry.get("horses") or []
     hist = load_history()
+    # 既存の出力JSONに agyo（アギョウ調教評価）があれば、再生成時に消さないよう馬名で引き継ぐ
+    out_path = ROOT / "data" / "entry_index" / f"{slug}.json"
+    prev_agyo = {}
+    if out_path.exists():
+        try:
+            old = json.loads(out_path.read_text(encoding="utf-8"))
+            for oh in old.get("horses", []):
+                if oh.get("agyo"):
+                    prev_agyo[oh["name"]] = oh["agyo"]
+        except Exception:
+            prev_agyo = {}
     rows = []
     for h in raw:
         name = h.get("name")
@@ -58,7 +69,7 @@ def main():
         last = runs[-1] if runs else None
         last2 = runs[-2:]
         avg2 = round(sum(r["index"] for r in last2) / len(last2), 1) if last2 else None
-        rows.append({
+        row = {
             "number": h.get("number"),
             "name": name,
             "jockey": h.get("jockey"),
@@ -66,7 +77,11 @@ def main():
             "prev_race": last,
             "index_avg2": avg2,
             "runs_indexed": len(runs),
-        })
+        }
+        agyo = h.get("agyo") or prev_agyo.get(name)
+        if agyo:
+            row["agyo"] = agyo
+        rows.append(row)
     indexed = sorted([r for r in rows if r["index"] is not None], key=lambda x: -x["index"])
     for i, r in enumerate(indexed, 1):
         r["index_rank_in_race"] = i
@@ -78,7 +93,7 @@ def main():
         "index_version": "0.2",
         "horses": rows,
     }
-    p = out_dir / f"{slug}.json"
+    p = out_path
     p.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"saved {p} ({len(rows)}頭 / 指数あり {len(indexed)}頭)")
     for r in indexed:
