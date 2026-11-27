@@ -24,7 +24,8 @@
       },
       "index_avg2": 110.6,
       "runs_indexed": 1,
-      "index_rank_in_race": 9
+      "index_rank_in_race": 9,
+      "agyo": "A"
     },
     {
       "number": 2,
@@ -47,7 +48,8 @@
       },
       "index_avg2": 116.4,
       "runs_indexed": 1,
-      "index_rank_in_race": 6
+      "index_rank_in_race": 6,
+      "agyo": "S"
     },
     {
       "number": 3,
@@ -70,7 +72,8 @@
       },
       "index_avg2": 113.8,
       "runs_indexed": 1,
-      "index_rank_in_race": 8
+      "index_rank_in_race": 8,
+      "agyo": "S"
     },
     {
       "number": 4,
@@ -116,7 +119,8 @@
       },
       "index_avg2": 122.4,
       "runs_indexed": 1,
-      "index_rank_in_race": 3
+      "index_rank_in_race": 3,
+      "agyo": "A"
     },
     {
       "number": 6,
@@ -185,7 +189,8 @@
       },
       "index_avg2": 121.1,
       "runs_indexed": 1,
-      "index_rank_in_race": 4
+      "index_rank_in_race": 4,
+      "agyo": "A"
     },
     {
       "number": 9,
@@ -208,7 +213,8 @@
       },
       "index_avg2": 124.6,
       "runs_indexed": 1,
-      "index_rank_in_race": 2
+      "index_rank_in_race": 2,
+      "agyo": "S"
     },
     {
       "number": 10,
@@ -231,7 +237,8 @@
       },
       "index_avg2": 102.8,
       "runs_indexed": 1,
-      "index_rank_in_race": 10
+      "index_rank_in_race": 10,
+      "agyo": "S"
     },
     {
       "number": 11,
@@ -254,7 +261,8 @@
       },
       "index_avg2": 114.7,
       "runs_indexed": 1,
-      "index_rank_in_race": 7
+      "index_rank_in_race": 7,
+      "agyo": "A"
     }
   ]
 }
