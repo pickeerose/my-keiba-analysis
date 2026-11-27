@@ -1,0 +1,174 @@
+{
+  "race_id": "202608050812",
+  "race_name": "京阪杯",
+  "date": "2026-11-29",
+  "track": "京都",
+  "race_number": 12,
+  "course": "芝1200m",
+  "source": "https://race.netkeiba.com/race/shutuba.html?race_id=202608050812",
+  "fetched_at": "2026-11-27T19:38:47+09:00",
+  "runners": [
+    {
+      "bracket": 1,
+      "number": 1,
+      "name": "ジェニファー",
+      "burden": 55.0,
+      "jockey": "松山",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 1,
+      "number": 2,
+      "name": "モズナナスター",
+      "burden": 55.0,
+      "jockey": "吉田隼",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 2,
+      "number": 3,
+      "name": "ヤブサメ",
+      "burden": 57.0,
+      "jockey": "田山",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 2,
+      "number": 4,
+      "name": "オタルエバー",
+      "burden": 57.0,
+      "jockey": "岩田康",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 3,
+      "number": 5,
+      "name": "レイピア",
+      "burden": 57.0,
+      "jockey": "佐々木",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 3,
+      "number": 6,
+      "name": "インブロリオ",
+      "burden": 55.0,
+      "jockey": "川田",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 4,
+      "number": 7,
+      "name": "リリージョワ",
+      "burden": 54.0,
+      "jockey": "浜中",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 4,
+      "number": 8,
+      "name": "ゾンニッヒ",
+      "burden": 57.0,
+      "jockey": "田口",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 5,
+      "number": 9,
+      "name": "メイショウソラフネ",
+      "burden": 57.0,
+      "jockey": "幸",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 5,
+      "number": 10,
+      "name": "ルシード",
+      "burden": 57.0,
+      "jockey": "鮫島駿",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 6,
+      "number": 11,
+      "name": "インビンシブルパパ",
+      "burden": 57.0,
+      "jockey": "小沢",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 6,
+      "number": 12,
+      "name": "デアヴェローチェ",
+      "burden": 55.0,
+      "jockey": "北村友",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 7,
+      "number": 13,
+      "name": "ヨシノイースター",
+      "burden": 57.0,
+      "jockey": "角田和",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 7,
+      "number": 14,
+      "name": "クラスペディア",
+      "burden": 57.0,
+      "jockey": "小崎",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 7,
+      "number": 15,
+      "name": "フォーゲル",
+      "burden": 56.0,
+      "jockey": "池添",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 8,
+      "number": 16,
+      "name": "ビッグシーザー",
+      "burden": 57.0,
+      "jockey": "斎藤",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 8,
+      "number": 17,
+      "name": "ナムラクララ",
+      "burden": 55.0,
+      "jockey": "吉村",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 8,
+      "number": 18,
+      "name": "エーティーマクフィ",
+      "burden": 58.0,
+      "jockey": "富田",
+      "win_odds": null,
+      "popularity": null
+    }
+  ]
+}

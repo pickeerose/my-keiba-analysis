@@ -1,0 +1,111 @@
+{
+  "race_id": "202608050711",
+  "race_name": "京都２歳Ｓ",
+  "date": "2026-11-28",
+  "track": "京都",
+  "race_number": 11,
+  "course": "芝2000m",
+  "source": "https://race.netkeiba.com/race/shutuba.html?race_id=202608050711",
+  "fetched_at": "2026-11-27T19:38:40+09:00",
+  "runners": [
+    {
+      "bracket": 1,
+      "number": 1,
+      "name": "アーケントレイル",
+      "burden": 56.0,
+      "jockey": "岩田望",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 2,
+      "number": 2,
+      "name": "シャローチャンプ",
+      "burden": 56.0,
+      "jockey": "Ｃデムーロ",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 3,
+      "number": 3,
+      "name": "ショウナンバトレニ",
+      "burden": 56.0,
+      "jockey": "松山",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 4,
+      "number": 4,
+      "name": "フェイマスジャズ",
+      "burden": 55.0,
+      "jockey": "杉原",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 5,
+      "number": 5,
+      "name": "エトワールハマー",
+      "burden": 56.0,
+      "jockey": "武豊",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 6,
+      "number": 6,
+      "name": "ゴールデンプロミス",
+      "burden": 56.0,
+      "jockey": "坂井",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 6,
+      "number": 7,
+      "name": "ポルトブルー",
+      "burden": 56.0,
+      "jockey": "西村淳",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 7,
+      "number": 8,
+      "name": "ノヴァヴェローチェ",
+      "burden": 56.0,
+      "jockey": "北村友",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 7,
+      "number": 9,
+      "name": "ネーロノワール",
+      "burden": 55.0,
+      "jockey": "川田",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 8,
+      "number": 10,
+      "name": "ドラゴンバルド",
+      "burden": 56.0,
+      "jockey": "モレイラ",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 8,
+      "number": 11,
+      "name": "サノノキセキ",
+      "burden": 56.0,
+      "jockey": "小林美",
+      "win_odds": null,
+      "popularity": null
+    }
+  ]
+}

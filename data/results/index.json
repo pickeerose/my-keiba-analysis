@@ -21,11 +21,39 @@
     "race_number": 11
   },
   {
+    "race_id": "202605050411",
+    "race_name": "オーロＣ",
+    "date": "2026-11-15",
+    "track": "東京",
+    "race_number": 11
+  },
+  {
+    "race_id": "202608050203",
+    "race_name": "２歳未勝利",
+    "date": "2026-11-08",
+    "track": "京都",
+    "race_number": 3
+  },
+  {
     "race_id": "202605050211",
     "race_name": "アルゼンチン共和国杯",
     "date": "2026-11-08",
     "track": "東京",
     "race_number": 11
+  },
+  {
+    "race_id": "202603030211",
+    "race_name": "みちのくＳ",
+    "date": "2026-11-08",
+    "track": "福島",
+    "race_number": 11
+  },
+  {
+    "race_id": "202608041103",
+    "race_name": "２歳未勝利",
+    "date": "2026-11-01",
+    "track": "京都",
+    "race_number": 3
   },
   {
     "race_id": "202605041111",
@@ -35,10 +63,101 @@
     "race_number": 11
   },
   {
+    "race_id": "202604040411",
+    "race_name": "ルミエールＡＤ",
+    "date": "2026-10-25",
+    "track": "新潟",
+    "race_number": 11
+  },
+  {
+    "race_id": "202608040802",
+    "race_name": "２歳未勝利",
+    "date": "2026-10-24",
+    "track": "京都",
+    "race_number": 2
+  },
+  {
+    "race_id": "202604040302",
+    "race_name": "２歳未勝利",
+    "date": "2026-10-24",
+    "track": "新潟",
+    "race_number": 2
+  },
+  {
+    "race_id": "202608040511",
+    "race_name": "スワンＳ",
+    "date": "2026-10-12",
+    "track": "京都",
+    "race_number": 11
+  },
+  {
+    "race_id": "202608040308",
+    "race_name": "紫菊賞",
+    "date": "2026-10-10",
+    "track": "京都",
+    "race_number": 8
+  },
+  {
     "race_id": "202608040211",
     "race_name": "京都大賞典",
     "date": "2026-10-04",
     "track": "京都",
+    "race_number": 11
+  },
+  {
+    "race_id": "202608040111",
+    "race_name": "オパールＳ",
+    "date": "2026-10-03",
+    "track": "京都",
+    "race_number": 11
+  },
+  {
+    "race_id": "202605040110",
+    "race_name": "白秋ステークス",
+    "date": "2026-10-03",
+    "track": "東京",
+    "race_number": 10
+  },
+  {
+    "race_id": "202606040911",
+    "race_name": "スプリンターズS",
+    "date": "2026-09-27",
+    "track": "中山",
+    "race_number": 11
+  },
+  {
+    "race_id": "202609040805",
+    "race_name": "２歳新馬",
+    "date": "2026-09-26",
+    "track": "阪神",
+    "race_number": 5
+  },
+  {
+    "race_id": "202606040805",
+    "race_name": "２歳新馬",
+    "date": "2026-09-26",
+    "track": "中山",
+    "race_number": 5
+  },
+  {
+    "race_id": "202609040603",
+    "race_name": "２歳未勝利",
+    "date": "2026-09-20",
+    "track": "阪神",
+    "race_number": 3
+  },
+  {
+    "race_id": "202609040302",
+    "race_name": "２歳未勝利",
+    "date": "2026-09-12",
+    "track": "阪神",
+    "race_number": 2
+  },
+  {
+    "race_id": "202609040211",
+    "race_name": "セントウルＳ",
+    "date": "2026-09-06",
+    "track": "阪神",
     "race_number": 11
   },
   {
@@ -49,9 +168,44 @@
     "race_number": 8
   },
   {
+    "race_id": "202601020211",
+    "race_name": "キーンランドＣ",
+    "date": "2026-08-23",
+    "track": "札幌",
+    "race_number": 11
+  },
+  {
+    "race_id": "202607020607",
+    "race_name": "ＣＢＣ賞",
+    "date": "2026-08-09",
+    "track": "中京",
+    "race_number": 7
+  },
+  {
+    "race_id": "202601010205",
+    "race_name": "２歳新馬",
+    "date": "2026-07-26",
+    "track": "札幌",
+    "race_number": 5
+  },
+  {
+    "race_id": "202610020411",
+    "race_name": "北九州記念",
+    "date": "2026-07-05",
+    "track": "小倉",
+    "race_number": 11
+  },
+  {
     "race_id": "202609030411",
     "race_name": "宝塚記念",
     "date": "2026-06-14",
+    "track": "阪神",
+    "race_number": 11
+  },
+  {
+    "race_id": "202609010811",
+    "race_name": "米子城Ｓ",
+    "date": "2026-03-15",
     "track": "阪神",
     "race_number": 11
   },
@@ -61,5 +215,19 @@
     "date": "2025-12-28",
     "track": "中山",
     "race_number": 11
+  },
+  {
+    "race_id": "202505050812",
+    "race_name": "ジャパンＣ",
+    "date": "2025-11-30",
+    "track": "東京",
+    "race_number": 12
+  },
+  {
+    "race_id": "202405050812",
+    "race_name": "ジャパンカップ",
+    "date": "2024-11-24",
+    "track": "東京",
+    "race_number": 12
   }
 ]

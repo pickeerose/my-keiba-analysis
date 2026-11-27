@@ -1,0 +1,174 @@
+{
+  "race_id": "202605050812",
+  "race_name": "ジャパンＣ",
+  "date": "2026-11-29",
+  "track": "東京",
+  "race_number": 12,
+  "course": "芝2400m",
+  "source": "https://race.netkeiba.com/race/shutuba.html?race_id=202605050812",
+  "fetched_at": "2026-11-27T19:38:44+09:00",
+  "runners": [
+    {
+      "bracket": 1,
+      "number": 1,
+      "name": "ヘデントール",
+      "burden": 58.0,
+      "jockey": "マーカンド",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 1,
+      "number": 2,
+      "name": "コスモキュランダ",
+      "burden": 58.0,
+      "jockey": "丹内",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 2,
+      "number": 3,
+      "name": "メイショウタバル",
+      "burden": 58.0,
+      "jockey": "武豊",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 2,
+      "number": 4,
+      "name": "クロワデュノール",
+      "burden": 58.0,
+      "jockey": "Ｃデムーロ",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 3,
+      "number": 5,
+      "name": "シェイクユアハート",
+      "burden": 58.0,
+      "jockey": "古川吉",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 3,
+      "number": 6,
+      "name": "マスカレードボール",
+      "burden": 58.0,
+      "jockey": "ルメール",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 4,
+      "number": 7,
+      "name": "ファイアンクランツ",
+      "burden": 58.0,
+      "jockey": "モレイラ",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 4,
+      "number": 8,
+      "name": "オンブズマン",
+      "burden": 58.0,
+      "jockey": "ビュイック",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 5,
+      "number": 9,
+      "name": "カランダガン",
+      "burden": 58.0,
+      "jockey": "バルザロー",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 5,
+      "number": 10,
+      "name": "ミニーホーク",
+      "burden": 56.0,
+      "jockey": "ムーア",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 6,
+      "number": 11,
+      "name": "ヴェルテンベルク",
+      "burden": 58.0,
+      "jockey": "横山典",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 6,
+      "number": 12,
+      "name": "テアオ",
+      "burden": 58.0,
+      "jockey": "Ｌトーレス",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 7,
+      "number": 13,
+      "name": "アーバンシック",
+      "burden": 58.0,
+      "jockey": "プーシャン",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 7,
+      "number": 14,
+      "name": "タガノデュード",
+      "burden": 58.0,
+      "jockey": "Ｍデムーロ",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 7,
+      "number": 15,
+      "name": "エキサイトバイオ",
+      "burden": 58.0,
+      "jockey": "荻野極",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 8,
+      "number": 16,
+      "name": "ダノンデサイル",
+      "burden": 58.0,
+      "jockey": "戸崎圭",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 8,
+      "number": 17,
+      "name": "ゴリアット",
+      "burden": 58.0,
+      "jockey": "スミヨン",
+      "win_odds": null,
+      "popularity": null
+    },
+    {
+      "bracket": 8,
+      "number": 18,
+      "name": "エシカルダイヤモンド",
+      "burden": 58.0,
+      "jockey": "坂井",
+      "win_odds": null,
+      "popularity": null
+    }
+  ]
+}
