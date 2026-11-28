@@ -23,7 +23,8 @@
         "value_gap": 0
       },
       "index_avg2": 103.2,
-      "runs_indexed": 2,
+      "index_avg5": 104.0,
+      "runs_indexed": 5,
       "index_rank_in_race": 13,
       "agyo": "A"
     },
@@ -46,8 +47,9 @@
         "win_odds": 21.2,
         "value_gap": 6
       },
-      "index_avg2": 113.2,
-      "runs_indexed": 1,
+      "index_avg2": 104.8,
+      "index_avg5": 101.1,
+      "runs_indexed": 6,
       "index_rank_in_race": 1,
       "agyo": "B"
     },
@@ -70,8 +72,9 @@
         "win_odds": 74.7,
         "value_gap": 4
       },
-      "index_avg2": 102.1,
-      "runs_indexed": 1,
+      "index_avg2": 100.8,
+      "index_avg5": 102.6,
+      "runs_indexed": 5,
       "index_rank_in_race": 10,
       "agyo": "A"
     },
@@ -95,7 +98,8 @@
         "value_gap": 9
       },
       "index_avg2": 97.2,
-      "runs_indexed": 2,
+      "index_avg5": 99.5,
+      "runs_indexed": 6,
       "index_rank_in_race": 11,
       "agyo": "B"
     },
@@ -119,7 +123,8 @@
         "value_gap": -3
       },
       "index_avg2": 102.0,
-      "runs_indexed": 2,
+      "index_avg5": 104.1,
+      "runs_indexed": 7,
       "index_rank_in_race": 17,
       "agyo": "B"
     },
@@ -142,8 +147,9 @@
         "win_odds": 4.9,
         "value_gap": -6
       },
-      "index_avg2": 103.6,
-      "runs_indexed": 1,
+      "index_avg2": 106.2,
+      "index_avg5": 105.5,
+      "runs_indexed": 5,
       "index_rank_in_race": 9,
       "agyo": "A"
     },
@@ -166,8 +172,9 @@
         "win_odds": 6.5,
         "value_gap": -3
       },
-      "index_avg2": 103.9,
-      "runs_indexed": 1,
+      "index_avg2": 94.5,
+      "index_avg5": 103.6,
+      "runs_indexed": 5,
       "index_rank_in_race": 8,
       "agyo": "A"
     },
@@ -190,8 +197,9 @@
         "win_odds": 44.9,
         "value_gap": 0
       },
-      "index_avg2": 98.3,
-      "runs_indexed": 1,
+      "index_avg2": 104.0,
+      "index_avg5": 108.0,
+      "runs_indexed": 5,
       "index_rank_in_race": 15,
       "agyo": "A"
     },
@@ -214,8 +222,9 @@
         "win_odds": 12.2,
         "value_gap": 4
       },
-      "index_avg2": 106.3,
-      "runs_indexed": 1,
+      "index_avg2": 99.7,
+      "index_avg5": 104.1,
+      "runs_indexed": 5,
       "index_rank_in_race": 4,
       "agyo": "B"
     },
@@ -239,7 +248,8 @@
         "value_gap": 0
       },
       "index_avg2": 97.8,
-      "runs_indexed": 2,
+      "index_avg5": 103.7,
+      "runs_indexed": 5,
       "index_rank_in_race": 16,
       "agyo": "S"
     },
@@ -262,8 +272,9 @@
         "win_odds": 8.4,
         "value_gap": -5
       },
-      "index_avg2": 98.4,
-      "runs_indexed": 1,
+      "index_avg2": 99.0,
+      "index_avg5": 98.4,
+      "runs_indexed": 5,
       "index_rank_in_race": 14,
       "agyo": "SS"
     },
@@ -286,8 +297,9 @@
         "win_odds": 4.2,
         "value_gap": -8
       },
-      "index_avg2": 99.0,
-      "runs_indexed": 1,
+      "index_avg2": 103.5,
+      "index_avg5": 108.7,
+      "runs_indexed": 5,
       "index_rank_in_race": 12,
       "agyo": "A"
     },
@@ -311,7 +323,8 @@
         "value_gap": 7
       },
       "index_avg2": 102.2,
-      "runs_indexed": 3,
+      "index_avg5": 108.2,
+      "runs_indexed": 7,
       "index_rank_in_race": 6,
       "agyo": "A"
     },
@@ -335,7 +348,8 @@
         "value_gap": 8
       },
       "index_avg2": 108.7,
-      "runs_indexed": 3,
+      "index_avg5": 106.0,
+      "runs_indexed": 7,
       "index_rank_in_race": 3,
       "agyo": "B"
     },
@@ -358,8 +372,9 @@
         "win_odds": 18.2,
         "value_gap": 3
       },
-      "index_avg2": 107.8,
-      "runs_indexed": 1,
+      "index_avg2": 107.2,
+      "index_avg5": 106.9,
+      "runs_indexed": 5,
       "index_rank_in_race": 2,
       "agyo": "B"
     },
@@ -383,7 +398,8 @@
         "value_gap": 11
       },
       "index_avg2": 97.3,
-      "runs_indexed": 2,
+      "index_avg5": 100.2,
+      "runs_indexed": 6,
       "index_rank_in_race": 5,
       "agyo": "A"
     },
@@ -406,8 +422,9 @@
         "win_odds": 22.0,
         "value_gap": -6
       },
-      "index_avg2": 91.2,
-      "runs_indexed": 1,
+      "index_avg2": 98.8,
+      "index_avg5": 100.0,
+      "runs_indexed": 7,
       "index_rank_in_race": 18,
       "agyo": "A"
     },
@@ -431,7 +448,8 @@
         "value_gap": 1
       },
       "index_avg2": 107.3,
-      "runs_indexed": 2,
+      "index_avg5": 106.1,
+      "runs_indexed": 6,
       "index_rank_in_race": 7,
       "agyo": "B"
     }

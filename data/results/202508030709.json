@@ -1,0 +1,133 @@
+{
+  "race_id": "202508030709",
+  "race_name": "もみじＳ",
+  "date": "2025-10-19",
+  "track": "京都",
+  "race_number": 9,
+  "course": "芝1400m",
+  "weather": null,
+  "going": "良",
+  "source": "https://race.netkeiba.com/race/result.html?race_id=202508030709",
+  "fetched_at": "2026-11-28T21:52:30+09:00",
+  "corner_passing": {
+    "3コーナー": [
+      7,
+      2,
+      1,
+      4,
+      6,
+      3,
+      5
+    ],
+    "4コーナー": [
+      7,
+      2,
+      1,
+      4,
+      6,
+      3,
+      5
+    ]
+  },
+  "final_corner": "4コーナー",
+  "runners": [
+    {
+      "rank": 1,
+      "status": null,
+      "bracket": 7,
+      "number": 7,
+      "name": "リリージョワ",
+      "burden": 55.0,
+      "jockey": "ルメー",
+      "time": "1:20.5",
+      "popularity": 2,
+      "win_odds": 2.7,
+      "last3f": 34.2,
+      "final_corner_pos": 1
+    },
+    {
+      "rank": 2,
+      "status": null,
+      "bracket": 2,
+      "number": 2,
+      "name": "ダイヤモンドノット",
+      "burden": 56.0,
+      "jockey": "川田",
+      "time": "1:20.6",
+      "popularity": 1,
+      "win_odds": 2.5,
+      "last3f": 33.3,
+      "final_corner_pos": 2
+    },
+    {
+      "rank": 3,
+      "status": null,
+      "bracket": 1,
+      "number": 1,
+      "name": "ファニーバニー",
+      "burden": 55.0,
+      "jockey": "横山武",
+      "time": "1:21.4",
+      "popularity": 5,
+      "win_odds": 18.2,
+      "last3f": 33.9,
+      "final_corner_pos": 3
+    },
+    {
+      "rank": 4,
+      "status": null,
+      "bracket": 6,
+      "number": 6,
+      "name": "シルバーナイツ",
+      "burden": 56.0,
+      "jockey": "団野",
+      "time": "1:21.6",
+      "popularity": 3,
+      "win_odds": 3.3,
+      "last3f": 33.8,
+      "final_corner_pos": 5
+    },
+    {
+      "rank": 5,
+      "status": null,
+      "bracket": 5,
+      "number": 5,
+      "name": "コラルリーフ",
+      "burden": 55.0,
+      "jockey": "西村淳",
+      "time": "1:22.1",
+      "popularity": 6,
+      "win_odds": 26.9,
+      "last3f": 34.1,
+      "final_corner_pos": 7
+    },
+    {
+      "rank": 6,
+      "status": null,
+      "bracket": 4,
+      "number": 4,
+      "name": "ナオミライトニング",
+      "burden": 55.0,
+      "jockey": "坂井",
+      "time": "1:22.3",
+      "popularity": 4,
+      "win_odds": 13.4,
+      "last3f": 34.8,
+      "final_corner_pos": 4
+    },
+    {
+      "rank": 7,
+      "status": null,
+      "bracket": 3,
+      "number": 3,
+      "name": "ロードヴィゴラス",
+      "burden": 56.0,
+      "jockey": "高杉",
+      "time": "1:22.6",
+      "popularity": 7,
+      "win_odds": 47.0,
+      "last3f": 34.6,
+      "final_corner_pos": 6
+    }
+  ]
+}

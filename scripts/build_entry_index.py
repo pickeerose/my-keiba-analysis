@@ -69,6 +69,8 @@ def main():
         last = runs[-1] if runs else None
         last2 = runs[-2:]
         avg2 = round(sum(r["index"] for r in last2) / len(last2), 1) if last2 else None
+        last5 = runs[-5:]
+        avg5 = round(sum(r["index"] for r in last5) / len(last5), 1) if last5 else None
         row = {
             "number": h.get("number"),
             "name": name,
@@ -76,6 +78,7 @@ def main():
             "index": last["index"] if last else None,
             "prev_race": last,
             "index_avg2": avg2,
+            "index_avg5": avg5,
             "runs_indexed": len(runs),
         }
         agyo = h.get("agyo") or prev_agyo.get(name)
@@ -98,7 +101,7 @@ def main():
     print(f"saved {p} ({len(rows)}頭 / 指数あり {len(indexed)}頭)")
     for r in indexed:
         prev = r["prev_race"]
-        print(f"  指数{r['index_rank_in_race']:>2}位 {r['index']:>6} (近2走平均 {r['index_avg2']}) {r['name']} "
+        print(f"  指数{r['index_rank_in_race']:>2}位 {r['index']:>6} (近2走平均 {r['index_avg2']} / 近5走平均 {r['index_avg5']}) {r['name']} "
               f"［前走 {prev['race_name']} {prev['rank']}着］")
     for r in rows:
         if r["index"] is None:
