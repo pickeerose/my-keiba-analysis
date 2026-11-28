@@ -1,0 +1,523 @@
+{
+  "version": "1.0",
+  "generated_from": "data/results/*.json (33 races) + data/index/ability_index_v02.json",
+  "method": "基準タイム = 同一（競馬場・芝/ダート・距離）の組み合わせにおける勝ち時計の中央値。レースの水準シフト = (基準タイム - そのレースの勝ち時計) x 10点（指数の時計スコアが0.1秒=1点のため）。補正指数(v0.3) = v0.2指数 + 水準シフト。n=1の組み合わせは基準未確立（暫定）としてフラグを付け、水準シフトは0（補正なし）。馬場状態別の基準を作るにはデータが不足しているため、基準は馬場を分けずに算出している。",
+  "limitations": [
+    "大半の組み合わせは n=1〜2 で、基準タイムの統計的な裏付けは弱い。n>=2 の組み合わせでも中央値は1〜2レースの時計に大きく左右される。",
+    "実例: 東京・芝2400m は n=2 で、2レースの勝ち時計差が5.2秒（2024年JC 2:25.5 / 2025年JC 2:20.3）あるため、水準シフトが ±26点と極端になる。この組み合わせの補正値は特に割り引いて読むこと。",
+    "馬場状態（良/稍重/重）を分けた基準にはデータ不足。重馬場のレースは勝ち時計が遅くなるため、馬場を混ぜた基準では水準シフトに馬場の影響が混入する。",
+    "勝ち時計のみを使うため、ペース（前半の速さ）や出走頭数・クラス差は反映されない。",
+    "指数は比較の目安であり、買い目や金額を示すものではない。"
+  ],
+  "combinations": [
+    {
+      "track": "中京",
+      "surface": "芝",
+      "distance_m": 1200,
+      "standard_time_sec": 66.5,
+      "standard_time": "1:06.5",
+      "n_races": 1,
+      "race_ids": [
+        "202607020607"
+      ],
+      "going_breakdown": {
+        "良": 1
+      },
+      "winning_times": {
+        "202607020607": "1:06.5"
+      },
+      "provisional": true,
+      "note": "基準未確立（暫定）: この組み合わせの結果が1レースしかないため、基準タイムはそのレース自身の勝ち時計であり、水準シフトは0。"
+    },
+    {
+      "track": "中山",
+      "surface": "芝",
+      "distance_m": 1200,
+      "standard_time_sec": 69.2,
+      "standard_time": "1:09.2",
+      "n_races": 1,
+      "race_ids": [
+        "202606040911"
+      ],
+      "going_breakdown": {
+        "稍": 1
+      },
+      "winning_times": {
+        "202606040911": "1:09.2"
+      },
+      "provisional": true,
+      "note": "基準未確立（暫定）: この組み合わせの結果が1レースしかないため、基準タイムはそのレース自身の勝ち時計であり、水準シフトは0。"
+    },
+    {
+      "track": "中山",
+      "surface": "芝",
+      "distance_m": 1800,
+      "standard_time_sec": 113.8,
+      "standard_time": "1:53.8",
+      "n_races": 1,
+      "race_ids": [
+        "202606040805"
+      ],
+      "going_breakdown": {
+        "重": 1
+      },
+      "winning_times": {
+        "202606040805": "1:53.8"
+      },
+      "provisional": true,
+      "note": "基準未確立（暫定）: この組み合わせの結果が1レースしかないため、基準タイムはそのレース自身の勝ち時計であり、水準シフトは0。"
+    },
+    {
+      "track": "中山",
+      "surface": "芝",
+      "distance_m": 2500,
+      "standard_time_sec": 151.5,
+      "standard_time": "2:31.5",
+      "n_races": 1,
+      "race_ids": [
+        "202506050811"
+      ],
+      "going_breakdown": {
+        "良": 1
+      },
+      "winning_times": {
+        "202506050811": "2:31.5"
+      },
+      "provisional": true,
+      "note": "基準未確立（暫定）: この組み合わせの結果が1レースしかないため、基準タイムはそのレース自身の勝ち時計であり、水準シフトは0。"
+    },
+    {
+      "track": "京都",
+      "surface": "芝",
+      "distance_m": 1200,
+      "standard_time_sec": 66.7,
+      "standard_time": "1:06.7",
+      "n_races": 1,
+      "race_ids": [
+        "202608040111"
+      ],
+      "going_breakdown": {
+        "良": 1
+      },
+      "winning_times": {
+        "202608040111": "1:06.7"
+      },
+      "provisional": true,
+      "note": "基準未確立（暫定）: この組み合わせの結果が1レースしかないため、基準タイムはそのレース自身の勝ち時計であり、水準シフトは0。"
+    },
+    {
+      "track": "京都",
+      "surface": "芝",
+      "distance_m": 1400,
+      "standard_time_sec": 79.2,
+      "standard_time": "1:19.2",
+      "n_races": 1,
+      "race_ids": [
+        "202608040511"
+      ],
+      "going_breakdown": {
+        "良": 1
+      },
+      "winning_times": {
+        "202608040511": "1:19.2"
+      },
+      "provisional": true,
+      "note": "基準未確立（暫定）: この組み合わせの結果が1レースしかないため、基準タイムはそのレース自身の勝ち時計であり、水準シフトは0。"
+    },
+    {
+      "track": "京都",
+      "surface": "芝",
+      "distance_m": 1600,
+      "standard_time_sec": 91.8,
+      "standard_time": "1:31.8",
+      "n_races": 1,
+      "race_ids": [
+        "202608050611"
+      ],
+      "going_breakdown": {
+        "良": 1
+      },
+      "winning_times": {
+        "202608050611": "1:31.8"
+      },
+      "provisional": true,
+      "note": "基準未確立（暫定）: この組み合わせの結果が1レースしかないため、基準タイムはそのレース自身の勝ち時計であり、水準シフトは0。"
+    },
+    {
+      "track": "京都",
+      "surface": "芝",
+      "distance_m": 2000,
+      "standard_time_sec": 121.0,
+      "standard_time": "2:01.0",
+      "n_races": 4,
+      "race_ids": [
+        "202608040308",
+        "202608040802",
+        "202608041103",
+        "202608050203"
+      ],
+      "going_breakdown": {
+        "良": 3,
+        "稍": 1
+      },
+      "winning_times": {
+        "202608040308": "1:59.4",
+        "202608040802": "2:02.6",
+        "202608041103": "2:01.3",
+        "202608050203": "2:00.7"
+      },
+      "provisional": false,
+      "note": null
+    },
+    {
+      "track": "京都",
+      "surface": "芝",
+      "distance_m": 2400,
+      "standard_time_sec": 144.0,
+      "standard_time": "2:24.0",
+      "n_races": 1,
+      "race_ids": [
+        "202608040211"
+      ],
+      "going_breakdown": {
+        "稍": 1
+      },
+      "winning_times": {
+        "202608040211": "2:24.0"
+      },
+      "provisional": true,
+      "note": "基準未確立（暫定）: この組み合わせの結果が1レースしかないため、基準タイムはそのレース自身の勝ち時計であり、水準シフトは0。"
+    },
+    {
+      "track": "小倉",
+      "surface": "芝",
+      "distance_m": 1200,
+      "standard_time_sec": 68.0,
+      "standard_time": "1:08.0",
+      "n_races": 1,
+      "race_ids": [
+        "202610020411"
+      ],
+      "going_breakdown": {
+        "重": 1
+      },
+      "winning_times": {
+        "202610020411": "1:08.0"
+      },
+      "provisional": true,
+      "note": "基準未確立（暫定）: この組み合わせの結果が1レースしかないため、基準タイムはそのレース自身の勝ち時計であり、水準シフトは0。"
+    },
+    {
+      "track": "新潟",
+      "surface": "芝",
+      "distance_m": 1000,
+      "standard_time_sec": 56.7,
+      "standard_time": "56.7",
+      "n_races": 1,
+      "race_ids": [
+        "202604040411"
+      ],
+      "going_breakdown": {
+        "不明": 1
+      },
+      "winning_times": {
+        "202604040411": "0:56.7"
+      },
+      "provisional": true,
+      "note": "基準未確立（暫定）: この組み合わせの結果が1レースしかないため、基準タイムはそのレース自身の勝ち時計であり、水準シフトは0。"
+    },
+    {
+      "track": "新潟",
+      "surface": "芝",
+      "distance_m": 1400,
+      "standard_time_sec": 82.3,
+      "standard_time": "1:22.3",
+      "n_races": 1,
+      "race_ids": [
+        "202604040302"
+      ],
+      "going_breakdown": {
+        "良": 1
+      },
+      "winning_times": {
+        "202604040302": "1:22.3"
+      },
+      "provisional": true,
+      "note": "基準未確立（暫定）: この組み合わせの結果が1レースしかないため、基準タイムはそのレース自身の勝ち時計であり、水準シフトは0。"
+    },
+    {
+      "track": "新潟",
+      "surface": "芝",
+      "distance_m": 2000,
+      "standard_time_sec": 119.6,
+      "standard_time": "1:59.6",
+      "n_races": 1,
+      "race_ids": [
+        "202604030408"
+      ],
+      "going_breakdown": {
+        "稍": 1
+      },
+      "winning_times": {
+        "202604030408": "1:59.6"
+      },
+      "provisional": true,
+      "note": "基準未確立（暫定）: この組み合わせの結果が1レースしかないため、基準タイムはそのレース自身の勝ち時計であり、水準シフトは0。"
+    },
+    {
+      "track": "札幌",
+      "surface": "芝",
+      "distance_m": 1200,
+      "standard_time_sec": 67.7,
+      "standard_time": "1:07.7",
+      "n_races": 1,
+      "race_ids": [
+        "202601020211"
+      ],
+      "going_breakdown": {
+        "良": 1
+      },
+      "winning_times": {
+        "202601020211": "1:07.7"
+      },
+      "provisional": true,
+      "note": "基準未確立（暫定）: この組み合わせの結果が1レースしかないため、基準タイムはそのレース自身の勝ち時計であり、水準シフトは0。"
+    },
+    {
+      "track": "札幌",
+      "surface": "芝",
+      "distance_m": 1800,
+      "standard_time_sec": 108.2,
+      "standard_time": "1:48.2",
+      "n_races": 1,
+      "race_ids": [
+        "202601010205"
+      ],
+      "going_breakdown": {
+        "良": 1
+      },
+      "winning_times": {
+        "202601010205": "1:48.2"
+      },
+      "provisional": true,
+      "note": "基準未確立（暫定）: この組み合わせの結果が1レースしかないため、基準タイムはそのレース自身の勝ち時計であり、水準シフトは0。"
+    },
+    {
+      "track": "東京",
+      "surface": "芝",
+      "distance_m": 1400,
+      "standard_time_sec": 80.4,
+      "standard_time": "1:20.4",
+      "n_races": 2,
+      "race_ids": [
+        "202605040110",
+        "202605050411"
+      ],
+      "going_breakdown": {
+        "良": 2
+      },
+      "winning_times": {
+        "202605040110": "1:20.4",
+        "202605050411": "1:20.4"
+      },
+      "provisional": false,
+      "note": "参考値: レース数が少なく、基準タイムは個々のレースの時計に大きく左右される。水準シフトも過大・過小になりうる。"
+    },
+    {
+      "track": "東京",
+      "surface": "芝",
+      "distance_m": 1800,
+      "standard_time_sec": 107.1,
+      "standard_time": "1:47.1",
+      "n_races": 1,
+      "race_ids": [
+        "202605050611"
+      ],
+      "going_breakdown": {
+        "良": 1
+      },
+      "winning_times": {
+        "202605050611": "1:47.1"
+      },
+      "provisional": true,
+      "note": "基準未確立（暫定）: この組み合わせの結果が1レースしかないため、基準タイムはそのレース自身の勝ち時計であり、水準シフトは0。"
+    },
+    {
+      "track": "東京",
+      "surface": "芝",
+      "distance_m": 2000,
+      "standard_time_sec": 116.7,
+      "standard_time": "1:56.7",
+      "n_races": 1,
+      "race_ids": [
+        "202605041111"
+      ],
+      "going_breakdown": {
+        "良": 1
+      },
+      "winning_times": {
+        "202605041111": "1:56.7"
+      },
+      "provisional": true,
+      "note": "基準未確立（暫定）: この組み合わせの結果が1レースしかないため、基準タイムはそのレース自身の勝ち時計であり、水準シフトは0。"
+    },
+    {
+      "track": "東京",
+      "surface": "芝",
+      "distance_m": 2400,
+      "standard_time_sec": 142.9,
+      "standard_time": "2:22.9",
+      "n_races": 2,
+      "race_ids": [
+        "202405050812",
+        "202505050812"
+      ],
+      "going_breakdown": {
+        "良": 2
+      },
+      "winning_times": {
+        "202405050812": "2:25.5",
+        "202505050812": "2:20.3"
+      },
+      "provisional": false,
+      "note": "参考値: レース数が少なく、基準タイムは個々のレースの時計に大きく左右される。水準シフトも過大・過小になりうる。"
+    },
+    {
+      "track": "東京",
+      "surface": "芝",
+      "distance_m": 2500,
+      "standard_time_sec": 150.9,
+      "standard_time": "2:30.9",
+      "n_races": 1,
+      "race_ids": [
+        "202605050211"
+      ],
+      "going_breakdown": {
+        "良": 1
+      },
+      "winning_times": {
+        "202605050211": "2:30.9"
+      },
+      "provisional": true,
+      "note": "基準未確立（暫定）: この組み合わせの結果が1レースしかないため、基準タイムはそのレース自身の勝ち時計であり、水準シフトは0。"
+    },
+    {
+      "track": "福島",
+      "surface": "芝",
+      "distance_m": 1200,
+      "standard_time_sec": 70.3,
+      "standard_time": "1:10.3",
+      "n_races": 1,
+      "race_ids": [
+        "202603030211"
+      ],
+      "going_breakdown": {
+        "稍": 1
+      },
+      "winning_times": {
+        "202603030211": "1:10.3"
+      },
+      "provisional": true,
+      "note": "基準未確立（暫定）: この組み合わせの結果が1レースしかないため、基準タイムはそのレース自身の勝ち時計であり、水準シフトは0。"
+    },
+    {
+      "track": "福島",
+      "surface": "芝",
+      "distance_m": 2000,
+      "standard_time_sec": 123.2,
+      "standard_time": "2:03.2",
+      "n_races": 1,
+      "race_ids": [
+        "202603030511"
+      ],
+      "going_breakdown": {
+        "稍": 1
+      },
+      "winning_times": {
+        "202603030511": "2:03.2"
+      },
+      "provisional": true,
+      "note": "基準未確立（暫定）: この組み合わせの結果が1レースしかないため、基準タイムはそのレース自身の勝ち時計であり、水準シフトは0。"
+    },
+    {
+      "track": "阪神",
+      "surface": "芝",
+      "distance_m": 1200,
+      "standard_time_sec": 67.3,
+      "standard_time": "1:07.3",
+      "n_races": 2,
+      "race_ids": [
+        "202609010811",
+        "202609040211"
+      ],
+      "going_breakdown": {
+        "良": 2
+      },
+      "winning_times": {
+        "202609010811": "1:07.7",
+        "202609040211": "1:06.9"
+      },
+      "provisional": false,
+      "note": "参考値: レース数が少なく、基準タイムは個々のレースの時計に大きく左右される。水準シフトも過大・過小になりうる。"
+    },
+    {
+      "track": "阪神",
+      "surface": "芝",
+      "distance_m": 1800,
+      "standard_time_sec": 107.8,
+      "standard_time": "1:47.8",
+      "n_races": 1,
+      "race_ids": [
+        "202609040603"
+      ],
+      "going_breakdown": {
+        "良": 1
+      },
+      "winning_times": {
+        "202609040603": "1:47.8"
+      },
+      "provisional": true,
+      "note": "基準未確立（暫定）: この組み合わせの結果が1レースしかないため、基準タイムはそのレース自身の勝ち時計であり、水準シフトは0。"
+    },
+    {
+      "track": "阪神",
+      "surface": "芝",
+      "distance_m": 2000,
+      "standard_time_sec": 122.4,
+      "standard_time": "2:02.4",
+      "n_races": 2,
+      "race_ids": [
+        "202609040302",
+        "202609040805"
+      ],
+      "going_breakdown": {
+        "良": 2
+      },
+      "winning_times": {
+        "202609040302": "2:01.5",
+        "202609040805": "2:03.3"
+      },
+      "provisional": false,
+      "note": "参考値: レース数が少なく、基準タイムは個々のレースの時計に大きく左右される。水準シフトも過大・過小になりうる。"
+    },
+    {
+      "track": "阪神",
+      "surface": "芝",
+      "distance_m": 2200,
+      "standard_time_sec": 132.1,
+      "standard_time": "2:12.1",
+      "n_races": 1,
+      "race_ids": [
+        "202609030411"
+      ],
+      "going_breakdown": {
+        "重": 1
+      },
+      "winning_times": {
+        "202609030411": "2:12.1"
+      },
+      "provisional": true,
+      "note": "基準未確立（暫定）: この組み合わせの結果が1レースしかないため、基準タイムはそのレース自身の勝ち時計であり、水準シフトは0。"
+    }
+  ]
+}
